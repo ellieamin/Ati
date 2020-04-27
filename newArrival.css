@@ -1,0 +1,25 @@
+.tile-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tile {
+  border: 0.5px gray solid;
+  margin: 20px;
+  max-width: 250px;
+  transition: transform 0.5s; /* Animation */
+  cursor: pointer;
+}
+
+.tile-img {
+  width: 100%;
+  height: auto;
+}
+
+.tile:hover {
+  transform: scale(1.1);
+}
+
+.content {
+  padding: 10px;
+}
